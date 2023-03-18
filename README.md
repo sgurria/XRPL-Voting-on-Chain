@@ -22,7 +22,9 @@ The system depends on the following libraries:
 ## Installation
 To install the dependencies, run the following command:
 
+```
 pip install nest_asyncio, xrpl
+```
 
 ## Usage
 To use the system, import nest_asyncio and xrpl and call the apply function to enable asynchronous I/O in a synchronous context. Then, import the required libraries: JsonRpcClient and generate_faucet_wallet from the xrpl.clients and xrpl.wallet modules, respectively.
